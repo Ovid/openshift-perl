@@ -5,14 +5,6 @@ This git repository helps you get up and running quickly w/ a Dancer installatio
 on OpenShift Express.  The Dancer project name used in this repo is 'openshift'
 but you can feel free to change it.
 
-You can delete the database from your git repo after the first push (you probably
-should for security).  On subsequent pushes, a 'python manage.py syncdb' is
-executed to make sure that any models you added are created in the DB.  If you
-do anything that requires an alter table, you could add the alter statements
-in GIT_ROOT/.openshift/action_hooks/alter and then use
-GIT_ROOT/.openshift/action_hooks/build to execute that script (make susre to
-back up your database w/ rhc-snapshot first :) )
-
 
 Running on OpenShift
 ----------------------------
