@@ -15,7 +15,7 @@ Create a perl-5.10 application
 
     rhc-create-app -a dancer -t perl-5.10
 
-Add this upstream seambooking repo
+Add this upstream dancer repo
 
     cd dancer
     git rm -r perl
