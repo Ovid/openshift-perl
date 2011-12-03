@@ -7,4 +7,8 @@ get '/' => sub {
     template 'index';
 };
 
+get '/subfolder' => sub {
+    "Hello, World!";
+};
+
 true;
