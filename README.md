@@ -13,7 +13,7 @@ Create an account at http://openshift.redhat.com/
 
 Create a perl-5.10 application
 
-    rhc-create-app -a dancer -t perl-5.10
+    rhc app create -a dancer -t perl-5.10
 
 Add this upstream dancer repo
 
