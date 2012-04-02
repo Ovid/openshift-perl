@@ -1,8 +1,8 @@
-Dancer on OpenShift Express
-============================
+Dancer on OpenShift
+===================
 
 This git repository helps you get up and running quickly w/ a Dancer installation
-on OpenShift Express.  The Dancer project name used in this repo is 'openshift'
+on OpenShift.  The Dancer project name used in this repo is 'openshift'
 but you can feel free to change it.
 
 
