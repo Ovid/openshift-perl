@@ -11,15 +11,15 @@ Running on OpenShift
 
 Create an account at http://openshift.redhat.com/
 
-Create a perl-5.10 application
+Create a perl application
 
-    rhc app create -a dancer -t perl-5.10
+    rhc app create dancer perl-5.10
 
 Add this upstream dancer repo
 
     cd dancer
     git rm -r perl
-    git commit -a -m "remove stock perl dir to prepare for Dancer"
+    git commit -a -m "Remove stock perl dir to prepare for Dancer"
     git remote add upstream -m master git://github.com/openshift/dancer-example.git
     git pull -s recursive -X theirs upstream master
     
