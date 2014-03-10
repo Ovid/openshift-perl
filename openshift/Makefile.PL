@@ -5,7 +5,7 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
     NAME                => 'openshift',
     AUTHOR              => q{YOUR NAME <youremail@example.com>},
-    VERSION_FROM        => 'lib/openshift.pm',
+    VERSION_FROM        => 'libs/openshift.pm',
     ABSTRACT            => 'YOUR APPLICATION ABSTRACT',
     ($ExtUtils::MakeMaker::VERSION >= 6.3002
       ? ('LICENSE'=> 'perl')
