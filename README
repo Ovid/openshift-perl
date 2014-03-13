@@ -6,7 +6,7 @@ perl/ - Externally exposed perl code goes here
 libs/ - Additional libraries
 misc/ - For not-externally exposed perl code
 ../data - For persistent data (Also in env var OPENSHIFT_DATA_DIR)
-deplist.txt - A list of perl modules required to run
+.openshift/cpan.txt - A list of perl modules required to run
 .openshift/action_hooks/pre_build - Script that gets run every git push before the build
 .openshift/action_hooks/build - Script that gets run every git push as part of the build process (on the CI system if available)
 .openshift/action_hooks/deploy - Script that gets run every git push after build but before the app is restarted
@@ -47,10 +47,10 @@ please store long term items (like an sqlite database) in ../data which will
 persist between pushes of your repo.
 
 
-deplist.txt
+cpan.txt
 ===========
 
-Adding module names to deplist.txt causes your remote OpenShift node to download
+Adding module names to cpan.txt causes your remote OpenShift node to download
 the required modules and install them.
 
 
