@@ -9,7 +9,7 @@ but you can feel free to change it.
 Running on OpenShift
 ----------------------------
 
-Create an account at http://openshift.redhat.com/
+Create an account at https://www.openshift.com
 
 Create a perl application
 
