@@ -20,7 +20,7 @@ Add this upstream dancer repo
     cd dancer
     git rm -r perl
     git commit -a -m "Remove stock perl dir to prepare for Dancer"
-    git remote add upstream -m master git://github.com/openshift/dancer-example.git
+    git remote add upstream -m master git://github.com/openshift-quickstart/dancer-example.git
     git pull -s recursive -X theirs upstream master
     
 Then push the repo upstream
