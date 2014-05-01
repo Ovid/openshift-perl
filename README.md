@@ -55,6 +55,8 @@ Then paste contents of
 
 Exit your editor and your database should be populated.
 
+Type `\q` to exit Postgresql.
+
 Then:
 
     git push
