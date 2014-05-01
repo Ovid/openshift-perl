@@ -65,7 +65,7 @@ Then navigate to the URL mentioned previously.
 # HACKING
 
 If you want to hack on the code, it's in the C<openshift> directory. Add
-dependencies to F<.openshift/cpan.txt>.
+dependencies to `.openshift/cpan.txt`.
 
 # AUTHOR
 
