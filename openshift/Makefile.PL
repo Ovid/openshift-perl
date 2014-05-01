@@ -3,10 +3,10 @@ use warnings;
 use ExtUtils::MakeMaker;
 
 WriteMakefile(
-    NAME         => 'openshift',
-    AUTHOR       => q{YOUR NAME <youremail@example.com>},
-    VERSION_FROM => 'libs/openshift.pm',
-    ABSTRACT     => 'YOUR APPLICATION ABSTRACT',
+    NAME         => 'Insult',
+    AUTHOR       => q{Curtis "Ovid" Poe <ovid@allaroundtheworld.fr>},
+    VERSION_FROM => 'lib/Insult.pm',
+    ABSTRACT     => 'Perl Openshift example',
     ( $ExtUtils::MakeMaker::VERSION >= 6.3002
         ? ( 'LICENSE' => 'perl' )
         : () ),
@@ -16,7 +16,9 @@ WriteMakefile(
         'YAML'           => 0,
         'Dancer'         => 1.3072,
         'HTML::Entities' => 3.69,
+        'DBI'            => 1.631,
+        'DBD::Pg'        => '3.1.1',
     },
     dist  => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
-    clean => { FILES    => 'openshift-*' },
+    clean => { FILES    => 'Insult-*' },
 );

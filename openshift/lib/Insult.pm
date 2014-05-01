@@ -1,4 +1,4 @@
-package openshift;
+package Insult;
 use Dancer ':syntax';
 use Insult::Model qw(insult named_insult);
 use HTML::Entities;
