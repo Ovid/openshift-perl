@@ -57,6 +57,9 @@ Exit your editor and your database should be populated.
 
 Type `\q` to exit Postgresql.
 
+Type `exit` to exit your cloud instance and return to your box (i.e., end your
+ssh session).
+
 Then:
 
     git push
