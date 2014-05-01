@@ -1,14 +1,11 @@
 package openshift;
 use Dancer ':syntax';
+use Insults qw(insult named_insult);
 
 our $VERSION = '0.1';
 
-get '/subfolder' => sub {
-    template 'index';
-};
-
 get '/' => sub {
-    "Hello, World!";
+    return insult();
 };
 
 true;
