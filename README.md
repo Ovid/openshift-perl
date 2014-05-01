@@ -61,3 +61,17 @@ That should build your application and install needed dependencies. It will
 take a while.
 
 Then navigate to the URL mentioned previously.
+
+# HACKING
+
+If you want to hack on the code, it's in the C<openshift> directory. Add
+dependencies to F<.openshift/cpan.txt>.
+
+# AUTHOR
+
+Written by Curtis "Ovid" Poe and sponsored by [All Around The
+World](http://www.allaroundtheworld.fr/).
+
+Copyright 2014, All Around The World.
+
+This code is released into the public domain. Do as you wish.
