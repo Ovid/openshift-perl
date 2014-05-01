@@ -39,7 +39,7 @@ following:
 Note that when you do this, it will dump a lot of useful information for you,
 including your application URL. Don't forget this URL.
 
-    git remote add upstream -m master <this repo>
+    git remote add upstream -m master https://github.com/Ovid/openshift-perl
     git pull -s recursive -X theirs upstream master
     rhc cartridge add postgresql-9.2
 
