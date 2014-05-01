@@ -1,6 +1,6 @@
 package openshift;
 use Dancer ':syntax';
-use Insults qw(insult named_insult);
+use Insult::Model qw(insult named_insult);
 use HTML::Entities;
 
 our $VERSION = '0.1';
