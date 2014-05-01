@@ -8,4 +8,8 @@ get '/' => sub {
     return insult();
 };
 
+get '/:name' => sub {
+    return named_insult( params->{name} );
+};
+
 true;
