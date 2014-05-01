@@ -8,6 +8,8 @@ Based on the Python code from [the free OpenShift eBook](https://www.openshift.c
 read).  This simple code uses Postgresql and Perl to generate Shakespearean
 insults.
 
+[Here's the live demo](http://insultapp-veure.rhcloud.com/).
+
 # PaaS
 
 "PaaS" stands for "Platform as a Service". It's aimed primarily at developers
