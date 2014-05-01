@@ -6,11 +6,11 @@ use HTML::Entities;
 our $VERSION = '0.1';
 
 get '/' => sub {
-    return insult();
+    template 'index', { insult => insult() };
 };
 
 get '/:name' => sub {
-    return named_insult( encode_entities(params->{name}) );
+    template 'index', { insult => named_insult( encode_entities(params->{name}) ) };
 };
 
 true;
